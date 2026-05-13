@@ -1,0 +1,44 @@
+# Binary
+fixmynpm
+dist/
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency vendor directory
+vendor/
+
+# Test cache
+.testcache/
+
+# Coverage reports
+coverage.out
+coverage.html
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and secrets — never commit these
+.env
+.env.*
+!.env.example
+*.npmrc.local
+
+# Release artifacts
+*.tar.gz
+*.zip
